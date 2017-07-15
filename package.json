@@ -1,6 +1,6 @@
 {
   "name": "yat",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "react": "^15.6.1",
@@ -14,5 +14,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "A simple geolocation component",
+  "main": "index.js",
+  "repository": "https://github.com/anandaroop/yat",
+  "author": "Anandaroop Roy <anandaroop.roy+github@gmail.com>",
+  "license": "MIT"
 }
