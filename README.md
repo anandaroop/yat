@@ -47,7 +47,7 @@ Resulting in the html output:
 
 Let's support both lon,lat and lat,lon ordering.
 
-```js
+```jsx
 import React from 'react'
 import Yat from 'yat'
 
