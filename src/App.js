@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Yat from './Yat'
+import Yat from 'components/yat'
 
 class App extends Component {
   render() {
