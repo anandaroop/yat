@@ -52,7 +52,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "lib": "babel src/node_modules --out-dir lib --copy-files",
+    "lib": "babel src/node_modules --ignore *.spec.js --out-dir lib --copy-files",
     "test": "node scripts/test.js --env=jsdom"
   },
   "description": "A simple geolocation component",
