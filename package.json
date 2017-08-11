@@ -1,6 +1,6 @@
 {
   "name": "@anandaroop/yat",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "A silly geolocation component",
   "main": "./lib/index.js",
   "repository": "https://github.com/anandaroop/yat",
@@ -23,11 +23,11 @@
     "webpack": "^3.5.3"
   },
   "scripts": {
-    "build": "rm -rf lib && babel src --ignore spec.js,stories.js --out-dir lib",
+    "transpile": "rm -rf lib && babel src --ignore spec.js,stories.js --out-dir lib",
     "build-storybook": "build-storybook",
     "bundle": "webpack",
     "publish": "npm publish --access public",
-    "prepare": "yarn run build",
+    "prepare": "yarn run transpile",
     "storybook": "start-storybook -p 6006",
     "test": "jest"
   },
