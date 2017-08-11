@@ -1,6 +1,6 @@
 {
   "name": "@anandaroop/yat",
-  "version": "0.2.5",
+  "version": "0.2.7",
   "description": "A silly geolocation component",
   "main": "./lib/index.js",
   "repository": "https://github.com/anandaroop/yat",
@@ -23,6 +23,6 @@
     "build": "rm -rf lib && babel src --out-dir lib",
     "bundle": "webpack",
     "publish": "npm publish --access public",
-    "prepublish": "yarn run build"
+    "prepare": "yarn run build"
   }
 }
