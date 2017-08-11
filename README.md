@@ -57,3 +57,13 @@ MyComponent = () =>
   </div>
 ```
 
+## Development
+
+- Component source code lives under `/src/components`
+- Use Storybook for a nice developer experience, and to document
+
+```sh
+cd yat
+yarn run storybook
+open http://localhost:6006
+```
