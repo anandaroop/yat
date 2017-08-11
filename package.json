@@ -12,14 +12,12 @@
     "babel-loader": "^7.1.1",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
+    "react": "^15.6.1",
     "webpack": "^3.5.3"
   },
   "scripts": {
     "build": "babel src --out-dir lib",
     "bundle": "webpack",
-    "prepublish": "yarn run build"
-  },
-  "dependencies": {
-    "react": "^15.6.1"
+    "postinstall": "yarn run build"
   }
 }
