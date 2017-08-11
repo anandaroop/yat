@@ -1,10 +1,14 @@
 {
   "name": "@anandaroop/yat",
-  "version": "0.2.2",
+  "version": "0.2.4",
   "description": "A silly geolocation component",
   "main": "./lib/index.js",
   "repository": "https://github.com/anandaroop/yat",
-  "author": "\"Anandaroop Roy <anandaroop.roy@gmail.com> (http://anandarooproy.com/)\"",
+  "author": {
+    "name": "Anandaroop Roy",
+    "email": "anandaroop.roy@gmail.com",
+    "url": "http://anandarooproy.com/"
+  },
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -18,6 +22,7 @@
   "scripts": {
     "build": "rm -rf lib && babel src --out-dir lib",
     "bundle": "webpack",
+    "publish": "npm publish --access public",
     "prepublish": "yarn run build"
   }
 }

@@ -6,15 +6,11 @@ You don't have to be a [yat](https://en.wikipedia.org/wiki/New_Orleans_English) 
 
 ## Installation
 
-Aiming for…
-
 ```sh
 yarn add @anandaroop/yat
 ```
 
 ## Basic Usage
-
-Aiming for…
 
 In your html:
 
@@ -29,7 +25,7 @@ In your javascript:
 ```js
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Yat from 'yat'
+import Yat from '@anandaroop/yatyat'
 
 ReactDOM.render(
   <Yat />,
