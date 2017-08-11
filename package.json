@@ -1,6 +1,6 @@
 {
   "name": "@anandaroop/yat",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A silly geolocation component",
   "main": "./lib/index.js",
   "repository": "https://github.com/anandaroop/yat",
