@@ -59,11 +59,32 @@ MyComponent = () =>
 
 ## Development
 
-- Component source code lives under `/src/components`
-- Use Storybook for a nice developer experience, and to document
+Component source code lives under `/src/components`.
 
-```sh
-cd yat
-yarn run storybook
-open http://localhost:6006
+Implementations, specs and stories are all co-located under each component directory.
+
+```
+src/components/
+└── Yat
+    ├── __snapshots__
+    ├── index.js
+    ├── spec.js
+    └── stories.js
+```
+
+### Testing
+
+Use Jest for behavior and snapshot testing
+
+```
+$ yarn test
+```
+
+### Stories
+
+Use Storybook for a nice developer experience, and to document
+
+```
+$ yarn run storybook
+$ open http://localhost:6006
 ```
