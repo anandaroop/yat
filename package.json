@@ -17,16 +17,21 @@
     "babel-loader": "^7.1.1",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
+    "jest": "^20.0.4",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "webpack": "^3.5.3"
   },
   "scripts": {
-    "build": "rm -rf lib && babel src --out-dir lib",
+    "build": "rm -rf lib && babel src --ignore spec.js,stories.js --out-dir lib",
+    "build-storybook": "build-storybook",
     "bundle": "webpack",
     "publish": "npm publish --access public",
     "prepare": "yarn run build",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "test": "jest"
+  },
+  "dependencies": {
+    "react-test-renderer": "^15.6.1"
   }
 }
