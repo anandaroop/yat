@@ -1,14 +1,10 @@
 {
   "name": "@anandaroop/yat",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A silly geolocation component",
   "main": "./lib/index.js",
   "repository": "https://github.com/anandaroop/yat",
-  "author": {
-    "name": "Anandaroop Roy",
-    "email": "anandaroop.roy@gmail.com",
-    "url": "http://anandarooproy.com/"
-  },
+  "author": "Anandaroop Roy <anandaroop.roy@gmail.com> (http://anandarooproy.com/)",
   "license": "MIT",
   "devDependencies": {
     "@storybook/react": "^3.2.3",
@@ -20,6 +16,7 @@
     "jest": "^20.0.4",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-test-renderer": "^15.6.1",
     "webpack": "^3.5.3"
   },
   "scripts": {
@@ -29,8 +26,5 @@
     "prepare": "yarn run transpile",
     "storybook": "start-storybook -p 6006",
     "test": "jest"
-  },
-  "dependencies": {
-    "react-test-renderer": "^15.6.1"
   }
 }
