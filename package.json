@@ -15,8 +15,9 @@
     "webpack": "^3.5.3"
   },
   "scripts": {
-    "transpile": "babel src --out-dir lib",
-    "build": "webpack"
+    "build": "babel src --out-dir lib",
+    "bundle": "webpack",
+    "prepublish": "yarn run build"
   },
   "dependencies": {
     "react": "^15.6.1"
