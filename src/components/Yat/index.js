@@ -1,5 +1,10 @@
 import React, { Component } from 'react'
 
+const coordinateString = (coordinates, order) => {
+  return order === 'lat,lon'
+    ? `${coordinates.latitude}, ${coordinates.longitude}`
+    : `${coordinates.longitude}, ${coordinates.latitude}`
+}
 class Yat extends Component {
   constructor(props) {
     super(props)
@@ -23,12 +28,17 @@ class Yat extends Component {
 
   render() {
     const { isLocated, longitude, latitude } = this.state
+    const { order } = this.props
     return (
       <div>
-        {isLocated ? `${longitude}, ${latitude}` : 'locating…'}
+        {isLocated ? coordinateString({ longitude, latitude }, order) : 'locating…'}
       </div>
     )
   }
+}
+
+Yat.defaultProps = {
+  order: 'lon,lat'
 }
 
 export default Yat
