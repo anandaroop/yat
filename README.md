@@ -41,7 +41,7 @@ Resulting in the html output:
 
 ## Options
 
-Let's aim to support both lon,lat and lat,lon ordering.
+Let's support both lon,lat and lat,lon ordering.
 
 ```jsx
 import React from 'react'

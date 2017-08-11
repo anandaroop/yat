@@ -6,4 +6,6 @@ import { storiesOf } from '@storybook/react'
 
 import Yat from '.'
 
-storiesOf('Yat', module).add('lon,lat (default)', () => <Yat />)
+storiesOf('Yat', module)
+  .add('lon,lat (default)', () => <Yat />)
+  .add('lat,lon', () => <Yat order="lat,lon" />)
