@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/anandaroop/yat",
   "author": "\"Anandaroop Roy <anandaroop.roy@gmail.com> (http://anandarooproy.com/)\"",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.5.3"
+  }
 }
