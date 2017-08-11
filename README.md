@@ -41,11 +41,11 @@ Resulting in the html output:
 
 ## Options
 
-Let's support both lon,lat and lat,lon ordering.
+Let's aim to support both lon,lat and lat,lon ordering.
 
 ```jsx
 import React from 'react'
-import Yat from 'yat'
+import Yat from '@anandaroop/yatyat'
 
 MyComponent = () =>
   <div>
