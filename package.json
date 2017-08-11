@@ -1,0 +1,9 @@
+{
+  "name": "yat",
+  "version": "0.1.0",
+  "description": "A silly geolocation component",
+  "main": "index.js",
+  "repository": "https://github.com/anandaroop/yat",
+  "author": "\"Anandaroop Roy <anandaroop.roy@gmail.com> (http://anandarooproy.com/)\"",
+  "license": "MIT"
+}
