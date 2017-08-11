@@ -1,6 +1,6 @@
 # yat
 
-Yat is a simple client-side geolocation component, made mostly to tinker with publishing npm packages.
+Yat is a simple client-side geolocation React component, made mostly to tinker with publishing npm packages.
 
 You don't have to be a [yat](https://en.wikipedia.org/wiki/New_Orleans_English) to use it.
 
