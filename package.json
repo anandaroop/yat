@@ -16,8 +16,8 @@
     "webpack": "^3.5.3"
   },
   "scripts": {
-    "build": "babel src --out-dir lib",
+    "build": "rm -rf lib && babel src --out-dir lib",
     "bundle": "webpack",
-    "postinstall": "yarn run build"
+    "prepublish": "yarn run build"
   }
 }
