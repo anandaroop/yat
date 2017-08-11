@@ -5,8 +5,11 @@ module.exports = {
 
   output: {
     filename: 'yat.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
+    library: 'Yat'
   },
+
+  externals: ['react'],
 
   module: {
     rules: [
@@ -14,10 +17,7 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['env']
-          }
+          loader: 'babel-loader'
         }
       }
     ]

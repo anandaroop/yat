@@ -1,9 +1,8 @@
 {
   "name": "yat",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A silly geolocation component",
-  "main": "index.js",
-  "module": "index.js",
+  "main": "./lib/index.js",
   "repository": "https://github.com/anandaroop/yat",
   "author": "\"Anandaroop Roy <anandaroop.roy@gmail.com> (http://anandarooproy.com/)\"",
   "license": "MIT",
@@ -12,10 +11,14 @@
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
     "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
     "webpack": "^3.5.3"
   },
   "scripts": {
     "transpile": "babel src --out-dir lib",
     "build": "webpack"
+  },
+  "dependencies": {
+    "react": "^15.6.1"
   }
 }

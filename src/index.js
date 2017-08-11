@@ -1,1 +1,3 @@
-console.log('hello')
+import Yat from './components/Yat'
+
+export { Yat }
